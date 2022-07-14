@@ -40,19 +40,19 @@ Eg:
 
 GET method(view data)
 
-http://<ipaddress>:5000
+http://youripaddress:5000
 
 POST method(add data)
   
-http://<ipaddress>:5000/John/Smith
+http://youripaddress:5000/John/Smith
 
 PUT method(update data)
   
-http://<ipaddress>:5000/1/John/Smith
+http://youripaddress:5000/1/John/Smith
 
 DELETE method(delete data)
   
-http://<ipaddress>:5000/1
+http://youripaddress:5000/1
 
 #7 Create the app image via Dockerfile
   
