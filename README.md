@@ -7,6 +7,7 @@ This is tested on podman centos-8
 dnf install podman podman-plugins
 
 #2. Create Network
+
 podman network create flask
 podman network ls
 
