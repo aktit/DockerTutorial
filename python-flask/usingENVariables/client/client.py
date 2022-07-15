@@ -6,7 +6,7 @@ url = os.environ['URL']
 @app.route('/')
 def hello():
     try:
-        x = requests.get(f"http://{url}:5000")
+        x = requests.get(url)
         return render_template('index.html', data = x.json())
     except:
         return render_template('index.html', data = 'API server is Down')
