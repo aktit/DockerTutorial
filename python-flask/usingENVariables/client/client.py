@@ -2,7 +2,7 @@ from flask import Flask, render_template
 import requests
 import os
 app = Flask(__name__)
-url = os.getenv('URL')
+url = os.environ['URL']
 @app.route('/')
 def hello():
     try:
