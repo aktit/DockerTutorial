@@ -44,15 +44,15 @@ http://youripaddress:5000
 
 POST method(add data)
   
-http://youripaddress:5000/John/Smith
+http://youripaddress:5000/post/John/Smith
 
 PUT method(update data)
   
-http://youripaddress:5000/1/John/Smith
+http://youripaddress:5000/put/1/John/Smith
 
 DELETE method(delete data)
   
-http://youripaddress:5000/1
+http://youripaddress:5000/delete/1
 
 #7 Create the app image via Dockerfile
   
