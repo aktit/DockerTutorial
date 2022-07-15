@@ -6,7 +6,7 @@ app = Flask(__name__)
 def hello():
     try:
         x = requests.get('http://flaskapi:5000')
-        return render_template('index.html', data = x.text)
+        return render_template('index.html', data = x.json())
     except:
         return render_template('index.html', data = 'API server is Down')
 
